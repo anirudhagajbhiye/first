@@ -21,3 +21,40 @@
 .show {
   top: 50% !important;
 }
+.faq {
+  width: 1170px;
+  margin: auto;
+}
+.faqItems {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.faqItems h3 {
+  margin: 0px;
+  color: white;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(39, 37, 37);
+}
+.faqItems p {
+  padding: 0px;
+  margin: 0px;
+  height: 0px;
+  transition: 0.2s;
+  transform-origin: top;
+  transform: scaleY(0);
+}
+
+.showP {
+  margin: 10px !important;
+  height: auto !important;
+  transform: scaleY(1) !important;
+}
+
+.faqItems span {
+  font-size: 25px;
+  top: 5px;
+  position: absolute;
+  right: 0px;
+}
